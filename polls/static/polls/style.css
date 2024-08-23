@@ -1,0 +1,9 @@
+li a {
+    color: green;
+}
+body {
+    background: rgb(255, 255, 255) url("images/079baa6b3a596b99d2dfcd79aa308789.jpg") no-repeat;
+    background-size: cover; /* Նկարը ամբողջ մակերեսի վրա */
+    background-position: center; /* Կենտրոնում նկարը */
+    background-repeat: no-repeat; /* Նկարը չի կրկնվի */
+}
