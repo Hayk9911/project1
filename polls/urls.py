@@ -13,4 +13,7 @@ urlpatterns = [
     path("register/", views.register, name="register"),
     path("login/" , views._login, name="login"),
     path("logout", views.log_out, name="logout"),
+    path("question/", views.question, name="question"),
+    path("<int:question_id>/question/edit/", views.question_edit, name="question_edit")
 ]
+

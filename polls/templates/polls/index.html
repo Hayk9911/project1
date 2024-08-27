@@ -6,7 +6,7 @@
     <title>Document</title>
     {% load static %}
 
-    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+    
 </head>
 <body>
     {% if latest_question_list %}
@@ -22,5 +22,6 @@
             No polls are available.
         </p>
     {% endif %}
+    <a href="{%url 'polls:question'%}" class="button">Add new question</a>
 </body>
 </html>
